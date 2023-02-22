@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Festival San Boris</title>
+</head>
+<body>
+
+  <!-- encabezado -->
+  <header class="bg-gray-800 text-white py-4 px-6 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Festival San Boris 2023</h1>
+    <button id="comprar" onclick="formulario()" class="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-lg">Comprar Entradas</button>
+  </header>
+
+  <!-- hero del evento -->
+  <section class="bg-gray-100 py-8">
+    <div class="container mx-auto">
+      <h2 class="text-5xl font-bold mb-10 text-cyan-600 text-center ">BEATLES RESURRECT</h2>
+      <div class="grid grid-cols-2">
+        <div class="list-disc pl-4 pt-14">
+          <br>
+          <p class="text-2xl font-bold mb-2">Fecha y hora: 21 de Enero a las 19 hrs</p>
+          <p class="text-2xl mb-2">Lugar: Estadio Nacional - Santiago.Chile</p>
+          <p class="text-2xl mb-2">Artistas: John Lennon, Paul McCartney, George Harrison, Ringo Starr</p>
+          <p class="text-2xl mb-2">Colaboración: Daddy Yankee</p>
+          
+        </div>
+        <img src="./img/beatles.jpg" alt="imagen de perfil" >
+
+
+      </div>
+
+      
+      
+    </div>
+  </section>
+
+  <!-- galería de fotos -->
+  <section class="bg-gray-200 py-8">
+    <div class="container mx-auto text-cyan-600 text-center">
+      <h2 class="text-2xl font-bold mb-4">CONCIERTOS HISTÓRICOS</h2>
+      <div class="grid grid-cols-3 gap-4">
+        <img class="ml-4 pl-14 w-96 h-56 object-cover" src="./img/beatles1.jpg" alt="Imagen del evento" />
+        <img class="ml-7 pl-14 w-96 h-56 object-cover" src="./img/beatles2.jpg" alt="Imagen del evento" />
+        <img class="ml-4 pl-14 w-96 h-56 object-cover" src="./img/beatles3.jpg" alt="Imagen del evento" />
+        <img class="ml-4 pl-14 w-96 h-56 object-cover" src="./img/beatles4.png" alt="Imagen del evento" />
+        <img class="ml-7 pl-14 w-96 h-56 object-cover" src="./img/beatles5.jpg" alt="Imagen del evento" />
+        <img class="ml-4 pl-14 w-96 h-56 object-cover" src="./img/beatles6.jpg" alt="Imagen del evento" />
+      </div>
+    </div>
+  </section>
+
+  <!-- compra de boletos -->
+
+  <section class="bg-gray-100 py-8">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4  text-cyan-600">RESERVA SU LUGAR</h2>
+      <p class="mb-4">¡Consigue tus boletos ahora y no te pierdas este increíble evento musical!</p>
+      <button onclick="formulario()" button id="comprar" class="bg-sky-900 hover:bg-blue-800 text-white py-2 px-4 rounded-lg">Comprar Entradas</button>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="bg-gray-800 text-white py-4 px-6 flex justify-between items-center">
+    <p>Todos los derechos reservados Matias Valladares © 2023</p>
+    <p>Política de Privacidad | Términos y Condiciones de acuerdo al dictamen de SanBoris</p>
+  </footer>
+
+  
+  
+<script src="./js/script.js"></script>
+</body>
+</html>
